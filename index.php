@@ -1,4 +1,4 @@
-<?php $ruta = 'http://127.0.0.1/puntosinformatio/';  ?>
+<?php $ruta = 'http://127.0.0.1/geo/';  ?>
 <!DOCTYPE html>
 <html>
 <head>
