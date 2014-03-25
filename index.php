@@ -394,16 +394,15 @@
 		</div>
 
 		<div class="filtro_map preguntas_sub2 span2">
-			<div class="row-fluid control-group span9">
+			<!-- <div class="row-fluid control-group span9">
 				<input type="checkbox" name="ckb_kml" id="ckb_kml" onclick="clean_kml_dpto();" > Ocultar KML
-			</div>
+			</div> -->
 
 			<div class="row-fluid control-group span9">
 				<label class="preguntas_sub2" for="region">REGION</label>
 				<div class="controls span">
 					<select id="region" class="span12" name="region">
 						<option id="0" value="1XKxUzwHeO0mrxwXoIhliYKBtWIj2Q_NHSKZbhnrX">COSTA</option>
-						<!-- <option id="0" value="1DpUiANvGr2JhRDccQIFbIEemzwq1glvq6rejJ_aO">COSTA</option> -->
 						<option id="1" value="1wJ-5f5BeI_n0qH3OeyMxKcO90-8eCNgSFnvtzs1x">SIERRA</option>
 						<option id="2" value="1CMrmsdHyYXCx3Jepdnede8pwZZy0qiMvYVqT75aj">SELVA</option>
 						<option id="3" value="1YvW7aDv4CXq_hz2japbXTyMvgscLMnCJXz8V7z29">LIMA</option>
