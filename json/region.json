@@ -238,7 +238,7 @@
                 				{"CCDI":"03", "Nombre":"COISHCO"},
                 				{"CCDI":"04", "Nombre":"MACATE"},
                 				{"CCDI":"05", "Nombre":"MORO"},
-                				{"CCDI":"06", "Nombre":"NEPENA"},
+                				{"CCDI":"06", "Nombre":"NEPEÑA"},
                 				{"CCDI":"07", "Nombre":"SAMANCO"},
                 				{"CCDI":"08", "Nombre":"SANTA"},
                 				{"CCDI":"09", "Nombre":"NUEVO CHIMBOTE"}
@@ -319,7 +319,7 @@
                 				{"CCDI":"03", "Nombre":"MARIANO NICOLAS VALCARCEL"},
                 				{"CCDI":"04", "Nombre":"MARISCAL CACERES"},
                 				{"CCDI":"05", "Nombre":"NICOLAS DE PIEROLA"},
-                				{"CCDI":"06", "Nombre":"OCONA"},
+                				{"CCDI":"06", "Nombre":"OCOÑA"},
                 				{"CCDI":"07", "Nombre":"QUILCA"},
                 				{"CCDI":"08", "Nombre":"SAMUEL PASTOR"}
                 			]
@@ -449,7 +449,7 @@
               				"DISTRITO":
               				[
                 				{"CCDI":"01", "Nombre":"ICA"},
-                				{"CCDI":"02", "Nombre":"LA TINGUINA"},
+                				{"CCDI":"02", "Nombre":"LA TINGUIÑA"},
                 				{"CCDI":"03", "Nombre":"LOS AQUIJES"},
                 				{"CCDI":"04", "Nombre":"OCUCAJE"},
                 				{"CCDI":"05", "Nombre":"PACHACUTEC"},
@@ -686,16 +686,16 @@
                 				{"CCDI":"15", "Nombre":"SANA"},
                 				{"CCDI":"16", "Nombre":"CAYALTI"},
                 				{"CCDI":"17", "Nombre":"PATAPO"},
-                				{"CCDI":"18", "Nombre":"PMALCA"},
+                				{"CCDI":"18", "Nombre":"POMALCA"},
                 				{"CCDI":"19", "Nombre":"PUCALA"},
                 				{"CCDI":"20", "Nombre":"TUMAN"}
                 			]
 						},
-						{ 	"CCPP":"02","Nombre":"FERRENAFE",
+						{ 	"CCPP":"02","Nombre":"FERREÑAFE",
               				"DISTRITO":
               				[
-                				{"CCDI":"01", "Nombre":"FERRENAFE"},
-                				{"CCDI":"02", "Nombre":"CANARIS"},
+                				{"CCDI":"01", "Nombre":"FERREÑAFE"},
+                				{"CCDI":"02", "Nombre":"CAÑARIS"},
                 				{"CCDI":"03", "Nombre":"INCAHUASI"},
                 				{"CCDI":"04", "Nombre":"MANUEL ANTONIO MESONES MURO"},
                 				{"CCDI":"05", "Nombre":"PITIPO"},
@@ -877,7 +877,7 @@
               				"DISTRITO":
               				[
                 				{"CCDI":"01", "Nombre":"TACNA"},
-                				{"CCDI":"02", "Nombre":"ALTO DE LA ALINZA"},
+                				{"CCDI":"02", "Nombre":"ALTO DE LA ALIANZA"},
                 				{"CCDI":"03", "Nombre":"CALANA"},
                 				{"CCDI":"04", "Nombre":"CIUDAD NUEVA"},
                 				{"CCDI":"05", "Nombre":"INCLAN"},
@@ -1265,7 +1265,7 @@
 								{"CCDI":"05", "Nombre":"ENCANADA"},
 								{"CCDI":"06", "Nombre":"JESUS"},
 								{"CCDI":"07", "Nombre":"LLACANORA"},
-								{"CCDI":"08", "Nombre":"LOS BANOS DEL INCA"},
+								{"CCDI":"08", "Nombre":"LOS BAÑOS DEL INCA"},
 								{"CCDI":"09", "Nombre":"MAGDALENA"},
 								{"CCDI":"10", "Nombre":"MATARA"},
 								{"CCDI":"11", "Nombre":"NAMORA"},
@@ -1540,7 +1540,7 @@
 								{"CCDI":"04", "Nombre":"COLQUEMARCA"},
 								{"CCDI":"05", "Nombre":"LIVITACA"},
 								{"CCDI":"06", "Nombre":"LLUSCO"},
-								{"CCDI":"07", "Nombre":"QUINOTA"},
+								{"CCDI":"07", "Nombre":"QUIÑOTA"},
 								{"CCDI":"08", "Nombre":"VELILLE"}
 							]
 						},
@@ -1846,7 +1846,7 @@
 								{"CCDI":"06", "Nombre":"MARIANO DAMASO BERAUN"}
 							]
 						},
-						{	"CCPP":"07", "Nombre":"MARANON",
+						{	"CCPP":"07", "Nombre":"MARAÑON",
               				"DISTRITO":
               				[
               					{"CCDI":"01", "Nombre":"HUACRACHUCO"},
@@ -1877,7 +1877,7 @@
               				"DISTRITO":
               				[
               					{"CCDI":"01", "Nombre":"JESUS"},
-								{"CCDI":"02", "Nombre":"BANOS"},
+								{"CCDI":"02", "Nombre":"BAÑOS"},
 								{"CCDI":"03", "Nombre":"JIVIA"},
 								{"CCDI":"04", "Nombre":"QUEROPALCA"},
 								{"CCDI":"05", "Nombre":"RONDOS"},
@@ -2503,7 +2503,7 @@
                                 {"CCDI":"04", "Nombre":"PAMPA HERMOSA"}
                             ]
                         },
-                        {   "CCPP":"07", "Nombre":"DATEM DEL MARANON",
+                        {   "CCPP":"07", "Nombre":"DATEM DEL MARAÑON",
                             "DISTRITO":
                             [   
                                 {"CCDI":"01", "Nombre":"BARRANCA"},
@@ -2732,7 +2732,7 @@
                                 {"CCDI":"02", "Nombre":"ANCON"},
                                 {"CCDI":"03", "Nombre":"ATE"},
                                 {"CCDI":"04", "Nombre":"BARRANCO"},
-                                {"CCDI":"05", "Nombre":"BRENA"},
+                                {"CCDI":"05", "Nombre":"BREÑA"},
                                 {"CCDI":"06", "Nombre":"CARABAYLLO"},
                                 {"CCDI":"07", "Nombre":"CHACLACAYO"},
                                 {"CCDI":"08", "Nombre":"CHORRILLOS"},
@@ -2942,7 +2942,7 @@
                                 {"CCDI":"29", "Nombre":"TAURIPAMPA"},
                                 {"CCDI":"30", "Nombre":"TOMAS"},
                                 {"CCDI":"31", "Nombre":"TUPE"},
-                                {"CCDI":"32", "Nombre":"VINAC"},
+                                {"CCDI":"32", "Nombre":"VIÑAC"},
                                 {"CCDI":"33", "Nombre":"VITIS"}
                             ]
                         }

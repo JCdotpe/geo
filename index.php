@@ -250,6 +250,8 @@
 
 			$('#depa').empty();
 			$('#depa').append('<option value="0">TODOS...</option>');
+			$('#prov').html('<option value="0">TODOS...</option>');
+			$('#dist').html('<option value="0">TODOS...</option>');
 
 			zomCenter = new google.maps.LatLng(-9.817329,-69.920655);
 			zom = 6;
