@@ -41,13 +41,13 @@
 
 			if (maploaded == false) {
 				//if we dont have a fully loaded map - show the message
-				msg.innerHTML = 'Cargando puntos...';
+				msg.innerHTML = '<b><center><em><font face="Brush Script Std">Cargando Puntos </em></b></font><img src="img/294.gif"></center>';
 				$("#msg").slideDown("fast");
 
 			} else {
 				//otherwise, show 'loaded' message then hide the message after a second
-				msg.innerHTML = 'Puntos cargados.'
-				$("#msg").slideUp("slow");
+				msg.innerHTML = '<b><center><font face="Brush Script Std">Puntos Cargados</b></font><img src="img/08.gif"></center>'
+				$("#msg").slideUp(1950);
 			} 
 		}
 
@@ -214,24 +214,6 @@
 			
 		}
 
-		// function kml_dpto(code){
-
-		// 	ckb = ($('#ckb_kml').is(':checked')) ? 0 : 1;
-
-		// 	for (var i = 0; i < kmlArray.length; i++) {
-
-		// 		kmlArray[i].nomkml.setMap(null);
-
-		// 		if (kmlArray[i].cd == code){
-		// 			if ( ckb == 1 ){
-		// 				kmlArray[i].nomkml.setMap(map);
-		// 			}
-		// 			map.setCenter(new google.maps.LatLng(kmlArray[i].lat,kmlArray[i].lng));
-		// 			map.setZoom(kmlArray[i].zm);
-		// 		}
-		// 	}
-		// }
-
 		// clean para cmb dinamico
 		function clean_kml_dpto(){
 
@@ -387,9 +369,16 @@
 </head>
 <body>
 
-	<div id="header" style="display: block;">
-		<a id="logo" href="#"><img src="" alt="Puntos Informatio"></a>
-		<div id="oted">Oficina Técnica de Estadísticas Departamentales - OTED</div>
+	<div id="header" class="container-fluid" style="border-top:5px solid #00A1C7 !important; background: url(img/bannerinei.png) no-repeat scroll right 0 #EFF7FA !important;" >
+		<a id="logo" href="#">
+			<img border="0" style="CURSOR: hand" src="img/inei.jpg" width='60' height='20'>
+			</a>
+				<div id="titulo">
+					<td><b><font FACE="Aharoni"><big><big><big>P</big></big></big>UNTOS <big><big><big>I</big></big></big>NFORMATIO</b></font><td>
+				</div>
+				<div id="oted">
+					<tr> Oficina Técnica de Estadísticas Departamentales - OTED</tr>
+				</div>	
 	</div>
 
 	<div id="cuerpo" >
@@ -463,7 +452,12 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div id="geo_leyenda" class="span9">
-					<!-- ajax -->
+					<img src="img/ama.jpg" width='50' height='40'> 
+					<b><small><em>CENTRO POBLADO</em></b>
+					<img src="img/rojo.png" width='50' height='40'> 
+					<b><em>INSTITUCIÓN EDUCATIVA</em></b>
+					<img src="img/pur.png" width='50' height='40'> 
+					<b><em>ESTABLECIMIENTO DE SALUD</em></small></b>		
 				</div>
 				<div id="subtitulo" class="span3">
 					<!-- ajax -->
