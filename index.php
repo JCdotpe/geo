@@ -41,12 +41,12 @@
 
 			if (maploaded == false) {
 				//if we dont have a fully loaded map - show the message
-				msg.innerHTML = 'Cargando puntos...';
+				msg.innerHTML = '<b><center><em><font face="Brush Script Std">Cargando Puntos </em></b></font><img src="img/294.gif"></center>';
 				$("#msg").slideDown("fast");
 
 			} else {
 				//otherwise, show 'loaded' message then hide the message after a second
-				msg.innerHTML = 'Puntos cargados.'
+				msg.innerHTML = '<b><center><font face="Brush Script Std">Puntos Cargados</b></font><img src="img/08.gif"></center>'
 				$("#msg").slideUp("slow");
 			} 
 		}
@@ -91,7 +91,8 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				}
+				},
+				suppressInfoWindows: true
 			});
 			capaKml.setMap(map);
 			
@@ -286,7 +287,8 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				}
+				},
+				suppressInfoWindows: true
 			});
 			capaKml.setMap(map);
 
@@ -343,7 +345,8 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				}
+				},
+				suppressInfoWindows: true
 			});
 			capaKml.setMap(map);
 
@@ -384,8 +387,13 @@
 </head>
 <body>
 
-	<div id="header" style="display: block;">
-		<a id="logo" href="#"><img src="" alt="Puntos Informatio"></a>
+	<div id="header"class="container-fluid" style="border-top:5px solid #00A1C7 !important; background: url(img/bannerinei.png) no-repeat scroll right 0 #EFF7FA !important;">
+		<a id="logo" href="#">
+			<img border="0" style="CURSOR: hand" src="img/inei.jpg" width='60' height='20'>
+		</a>
+		<div id="titulo">
+			<td><b><font FACE="Cooper Std Black"><big><big><big>P</big></big></big>UNTOS <big><big><big>I</big></big></big>NFORMATIO</b></font><td>
+		</div>
 		<div id="oted">Oficina Técnica de Estadísticas Departamentales - OTED</div>
 	</div>
 
@@ -460,7 +468,12 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div id="geo_leyenda" class="span9">
-					<!-- ajax -->
+					<img src="img/ama.jpg" width='50' height='40'> 
+					<b><small><em>CENTRO POBLADO</em></b>
+					<img src="img/rojo.png" width='50' height='40'> 
+					<b><em>INSTITUCIÓN EDUCATIVA</em></b>
+					<img src="img/pur.png" width='50' height='40'> 
+					<b><em>ESTABLECIMIENTO DE SALUD</em></small></b>
 				</div>
 				<div id="subtitulo" class="span3">
 					<!-- ajax -->
