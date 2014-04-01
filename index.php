@@ -1,4 +1,4 @@
-<?php $ruta = 'http://127.0.0.1/geo/';  ?>
+<?php $ruta = 'http://192.168.220.112/geo/';  ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -91,7 +91,8 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				}
+				},
+				suppressInfoWindows: true
 			});
 			capaKml.setMap(map);
 			
@@ -286,7 +287,8 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				}
+				},
+				suppressInfoWindows: true
 			});
 			capaKml.setMap(map);
 
@@ -343,7 +345,8 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				}
+				},
+				suppressInfoWindows: true
 			});
 			capaKml.setMap(map);
 
