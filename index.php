@@ -1,4 +1,4 @@
-<?php $ruta = 'http://192.168.220.112/geo/';  ?>
+<?php include 'config.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
