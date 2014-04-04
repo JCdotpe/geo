@@ -91,8 +91,7 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				},
-				suppressInfoWindows: true
+				}
 			});
 			capaKml.setMap(map);
 			
@@ -269,8 +268,7 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				},
-				suppressInfoWindows: true
+				}
 			});
 			capaKml.setMap(map);
 
@@ -327,8 +325,7 @@
 				options: {
 					styleId: 2,
 					templateId: 2
-				},
-				suppressInfoWindows: true
+				}
 			});
 			capaKml.setMap(map);
 
