@@ -46,7 +46,7 @@
 
 			} else {
 				//otherwise, show 'loaded' message then hide the message after a second
-				msg.innerHTML = '<b><center><font face="Brush Script Std">Puntos Cargados</b></font><img src="img/08.gif"></center>'
+				msg.innerHTML = '<b><center><font face="Brush Script Std">Puntos Cargados</b></font><img src="img/08.gif"></center>';
 				$("#msg").slideUp(1950);
 			} 
 		}
