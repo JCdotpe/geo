@@ -54,7 +54,7 @@
 		function initialize() {
 			var myOptions = {
 				zoom: 6,
-				center: new google.maps.LatLng(-9.817329,-69.920655),
+				center: new google.maps.LatLng(-10.089204, -69.802552),
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				zoomControl: true,
 				zoomControlOptions: {
@@ -235,7 +235,7 @@
 			$('#prov').html('<option value="0">TODOS...</option>');
 			$('#dist').html('<option value="0">TODOS...</option>');
 
-			zomCenter = new google.maps.LatLng(-9.817329,-69.920655);
+			zomCenter = new google.maps.LatLng(-10.089204, -69.802552);
 			zom = 6;
 
 			posicion = $('#region option:selected').attr('id');
