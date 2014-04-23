@@ -41,12 +41,12 @@
 
 			if (maploaded == false) {
 				//if we dont have a fully loaded map - show the message
-				msg.innerHTML = '<b><center><em><font face="Brush Script Std">Cargando Puntos </em></b></font><img src="img/294.gif"></center>';
+				msg.innerHTML = '<b><center><em><font face="Brush Script Std">Cargando Puntos </em></b></font><img src="<?php echo $ruta; ?>img/294.gif"></center>';
 				$("#msg").slideDown("fast");
 
 			} else {
 				//otherwise, show 'loaded' message then hide the message after a second
-				msg.innerHTML = '<b><center><font face="Brush Script Std">Puntos Cargados</b></font><img src="img/08.gif"></center>';
+				msg.innerHTML = '<b><center><font face="Brush Script Std">Puntos Cargados</b></font><img src="<?php echo $ruta; ?>img/08.gif"></center>';
 				$("#msg").slideUp(1950);
 			} 
 		}
